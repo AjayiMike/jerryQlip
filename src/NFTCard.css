@@ -31,14 +31,16 @@
   justify-content: space-between;
   align-items: flex-end;
   margin-bottom: 1.5rem;
+  font-size: 0.8rem;
 }
 
 .nft-card .nft-details .detail-2 {
   font-weight: 300;
+  font-size: 0.7rem;
 }
 
 .nft-card .nft-details .detail-2 span {
-  font-size: 0.8rem;
+  font-size: 0.5rem;
   font-weight: 200;
   color: #bec2ca;
 }
@@ -65,5 +67,15 @@
   .nft-card {
     width: 31%;
     margin: 2rem 0;
+  }
+  .nft-card .nft-details .detail-2 {
+    font-weight: 300;
+    font-size: 1rem;
+  }
+
+  .nft-card .nft-details .detail-2 span {
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: #bec2ca;
   }
 }
